@@ -41,7 +41,7 @@ public class CharacterSelect : MonoBehaviour {
 		if (GameObject.Find ("CharacterSelector") != null) {
 			Destroy (GameObject.Find ("CharacterSelector"));
 		}
-		SceneManager.LoadScene ("LogoScreen");
+		SceneManager.LoadScene ("MainMenu");
 	}
 		
 
