@@ -25,7 +25,7 @@ public class SceneController : MonoBehaviour {
         LoadGameplay();
         Player = GameObject.FindWithTag("Player").GetComponent<PlayerBhysics>();
         Player.gameObject.SetActive(false);
-
+        
     }
 
     void Update()
@@ -41,7 +41,7 @@ public class SceneController : MonoBehaviour {
 
     public static void LoadGameplay()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("CharacterSelect");
     }
 
     public static void LoadStage(int stage)
