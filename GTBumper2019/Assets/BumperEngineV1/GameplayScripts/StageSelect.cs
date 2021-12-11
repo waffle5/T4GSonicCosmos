@@ -44,7 +44,7 @@ public class StageSelect : MonoBehaviour {
 		if (GameObject.Find ("CharacterSelector") != null) {
 			Destroy (GameObject.Find ("CharacterSelector"));
 		}
-		SceneManager.LoadScene ("CharacterSelect");
+		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex - 1);
 	}
 
 	private IEnumerator BeginLoad()
