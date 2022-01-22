@@ -41,7 +41,7 @@ public class SceneController : MonoBehaviour {
 
     public static void LoadGameplay()
     {
-        SceneManager.LoadScene("CharacterSelect");
+        SceneManager.LoadScene("StageSelect");
     }
 
     public static void LoadStage(int stage)

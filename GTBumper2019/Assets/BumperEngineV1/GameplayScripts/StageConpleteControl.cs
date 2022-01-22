@@ -6,10 +6,9 @@ public class StageConpleteControl : MonoBehaviour {
 
     //WHERE EVEN IS THIS SCRIPT AND WHY IS IT HERE?
 
-
     public float End;
     float counter;
-    public int LevelToGoNext;
+    //public int LevelToGoNext;
 
     public Animator Anim;
 
@@ -22,7 +21,7 @@ public class StageConpleteControl : MonoBehaviour {
             Anim.SetInteger("Action", 1);
             if(counter > End + 2.3f)
             {
-                SceneManager.LoadScene(LevelToGoNext);
+                SceneManager.LoadScene("StageSelect");
             }
         }
     }
