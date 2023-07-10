@@ -1,5 +1,5 @@
 # T4GSonicCosmos
-This Sonic the Hedgehog game (built with Unity and The Bumper Engine) is part of our CSULB Senior Project and the Video Game Development Association, but it is also a passion project that will continue to be developed and refined more in the future.
+This Sonic the Hedgehog game (built with Unity and The Bumper Engine) is part of our CSULB Senior Project and the Video Game Development Association, but it is also a passion project that will continue to be developed and refined more in the future. Sonic Cosmos is available now for Windows, Mac, and Linux! The game is also playable with the Xbox 360, Xbox One, and PlayStation 4 controllers.
 
 Link to play the game: https://waffle5.itch.io/sonic-cosmos
 
